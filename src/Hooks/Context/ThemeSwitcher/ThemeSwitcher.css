@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 50px 20px 50px;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+.dark-theme {
+background-color: #1e1e1e;
+color: white;
+}
+.light-theme {
+    background-color: white;
+    color: black;
+}
+button {
+    padding: 6px;
+    width: 30%;
+}

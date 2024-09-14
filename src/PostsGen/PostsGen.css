@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+body {
+  background-color: #242424;
+  color: white;
+}
+
+.post-app {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 80px;
+}
+h1 {
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.add-textArea {
+  height: 20vh;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: #ccc;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.txt-edit {
+  height: 15vh;
+}
+.add-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #ccc;
+}
+
+.add-input::placeholder {
+  color: rgb(103, 102, 102);
+}
+
+.edit-input {
+  padding: 5px 0px;
+  font-size: 16px;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-bottom: 0.5px solid rgb(183, 181, 181);
+  background: transparent;
+  color: white;
+  resize: none;
+}
+
+.edit-input::placeholder {
+  color: rgb(183, 181, 181);
+  font-size: 14px;
+}
+
+.select-add {
+  padding: 5px 2px;
+  font-size: 16px;
+  width: 19%;
+  margin-right: 6px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: rgb(103, 102, 102);
+  background-color: #ccc;
+}
+button {
+  cursor: pointer;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.add-post {
+  padding: 11px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color:dodgerblue;
+  width: 122px;
+}
+
+.add-post:hover {
+  background-color: royalblue;
+}
+.clear {
+  background-color: rgb(240, 84, 84);
+  margin-left: 6px;
+  padding: 11px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.clear:hover {
+  background-color: red;
+  color: white;
+}
+
+.save-post, .cancel-edit {
+padding: 5px;
+margin: 3px;
+background-color: darkgoldenrod;
+}
+.edit-select {
+  width: 25%;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+.bottom-add {
+  display: flex;
+  margin-top: 3px;
+}
+.bottom-edit {
+  display: flex;
+  margin-top: 8px;
+}
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.post-item {
+  display: flex;
+  padding: 7px 20px 20px 20px;
+  border: 2px solid #ccc;
+  margin-bottom: 8px;
+  position: relative;
+  background-color:#265587;
+  width: 80%;
+}
+
+.post-item h2 {
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  margin-bottom: 10px;
+}
+
+.post-item h5 {
+  margin: 0;
+}
+
+.delete-post {
+  position: absolute;
+  background-color: darkred;
+  color: white;
+  padding: 6px 8px 10px 8px;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-post:hover {
+  background-color: red;
+}
+
+.edit-post {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  position: absolute;
+  bottom: 19px;
+  right: 10px;
+}
+input:focus::-webkit-input-placeholder{
+  opacity: 0;
+  }
+  input:focus::-moz-placeholder{
+  opacity: 0;
+  }
+  input:focus::-ms-placeholder{
+  opacity: 0;
+  }
+  

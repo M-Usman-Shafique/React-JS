@@ -1,0 +1,35 @@
+
+.inner {
+    height: 50vh;
+    width: 18vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.color-white {
+    color: white;
+}
+.btn {
+    background-color:tan;
+    color: black;
+    border: none;
+    padding: 8px;   
+}
+.btn-count {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 0.75rem 0 0.75rem;
+    margin: 1px;
+}
+h1 {
+    text-decoration: underline;
+
+}
+.flex-exemt {
+    position: absolute;
+    bottom: 7rem;
+}

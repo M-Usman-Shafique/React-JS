@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: rgb(1, 30, 30);
+    color: white;
+}
+.navbar {
+    border-bottom: 1px solid #bcbcbc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    }
+    .navbar a {
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background: transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: large;
+    }
+    .navbar a:hover {
+    background: #10101072;
+    color: yellow;
+    }
+    .navbar a.active {
+        background: #101010;
+        color: #ffe400;
+    }
+
+    .login {
+        background-color: green;
+    }
+    .logout {
+        background-color: red;
+    }
+    .btn {
+        color: white;
+        padding: 1px 8px;
+        margin-left: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: large;
+    }
+
+    .input-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        height: 65vh;
+        gap: 50px;
+        width: 30%;
+        padding: 50px 30px 30px 30px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.047);
+        backdrop-filter: blur(7px);
+        box-shadow: 22px 22px 22px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        
+
+    }
+    .inputs {
+        width: 290px;
+        outline: none;
+        padding: 12px;
+        font-size: 16px;
+        background: transparent;
+        border-radius: 30px;
+        border: 1px solid grey;
+        color: grey;
+    }
+
+    .login-btn {
+        background-color: blue;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 9px 15px;
+        cursor: pointer;
+        border: none;
+        border-radius: 20px;
+        width: 310px;
+    }
