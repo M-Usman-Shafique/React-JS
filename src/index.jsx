@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { RockPaperSci } from "./Misc/RockPaperSci";
+import DebounceDemo from "./Misc/DebounceDemo";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 //   <React.StrictMode>
-    <RockPaperSci />
+    <DebounceDemo />
 //   </React.StrictMode>
 );
