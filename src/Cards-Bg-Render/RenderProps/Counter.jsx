@@ -8,8 +8,13 @@ function Counter({ render }) {
   };
   return (
     <div>
-      <h2 style={{textAlign: 'center'}}>{render(count)}</h2>
-      <button onMouseMove={handleEvent} style={{backgroundColor: 'black', color: 'white', fontSize: 20, borderRadius: 10, padding: 15}}>Update</button>
+      <h2 className="text-center">{render(count)}</h2>
+      <button
+        onClick={handleEvent}
+        className="bg-black text-white text-lg rounded-lg p-2"
+      >
+        Update
+      </button>
     </div>
   );
 }
