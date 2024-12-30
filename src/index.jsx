@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import ProductPage from "./Lazy Loading/ProductPage";
-import { BrowserRouter } from "react-router-dom";
+import Input from "./callback/Input";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ProductPage />
-    </BrowserRouter>
+    <Input />
   </React.StrictMode>
 );
