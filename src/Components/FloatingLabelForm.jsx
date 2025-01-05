@@ -1,11 +1,12 @@
 import React from "react";
+import "./form.css";
 
 export default function FloatingLabelForm() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <form action="#" className="w-full max-w-md space-y-8 px-8 py-6">
         <div className="text-center font-bold text-3xl">Create New Account</div>
-        <div className="input-box">
+        <div className="input-group">
           <input
             required
             className="inputs peer"
@@ -17,7 +18,7 @@ export default function FloatingLabelForm() {
             Username
           </label>
         </div>
-        <div className="input-box">
+        <div className="input-group">
           <input
             required
             className="inputs peer"
@@ -29,7 +30,7 @@ export default function FloatingLabelForm() {
             Email Address
           </label>
         </div>
-        <div className="input-box">
+        <div className="input-group">
           <input
             required
             className="inputs peer"
